@@ -1,0 +1,42 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#board {
+    text-align: center;
+    margin-left: auto 0;
+}
+
+.main-table {
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.square {
+    height: 50px;
+    width: 50px;
+}
+
+#restart-button {
+    display: none;
+    margin: auto;
+}
+
+.player-score-table {
+    display: flex;
+    justify-content: center;
+}
+
+.player1-score {
+    margin-right: 50px;
+}
+
+#player-turn {
+    margin-top: 50px;
+    text-decoration: underline;
+}
